@@ -110,6 +110,46 @@ export default function Home() {
           </div>
         </motion.div>
 
+        {/* Feature Navigation Section */}
+        <section className="my-16">
+          <h2 className="text-3xl font-bold text-emerald-800 mb-6 text-center">Explore All Features</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { name: 'Vitality Aurora Veil', path: '/aurora-veil' },
+              { name: 'Eco-Sync Wind Sculpture', path: '/dashboard' },
+              { name: 'Global Healing Ember', path: '/global-healing-ember' },
+              { name: 'Resilience Petal Vortex', path: '/resilience-petal-vortex' },
+              { name: 'Eco-Rhythm Cascade', path: '/eco-rhythm-cascade' },
+              { name: 'Harmony Pulse Chime', path: '/harmony-pulse-chime' },
+              { name: 'Community Glow Sphere', path: '/community-glow-sphere' },
+              { name: 'Vitality Sky Mosaic', path: '/vitality-sky-mosaic' },
+              { name: 'Global Wellness Weave', path: '/global-wellness-weave' },
+              { name: 'Resilience Ripple Jet', path: '/resilience-ripple-jet' },
+              { name: 'Eco-Vitality Prism', path: '/eco-vitality-prism' },
+              { name: 'Healing Dance Sphere', path: '/healing-dance-sphere' },
+              { name: 'Community Unity Web', path: '/community-unity-web' },
+              { name: 'Eco-Harmony Beacon', path: '/eco-harmony-beacon' },
+              { name: 'Vitality Bloom Matrix', path: '/vitality-bloom-matrix' },
+              { name: 'Global Serenity Symphony', path: '/global-serenity-symphony' },
+              { name: 'Resilience Firefly Swarm', path: '/resilience-firefly-swarm' },
+              { name: 'Eco-Pulse Vibrator', path: '/eco-pulse-vibrator' },
+              { name: 'Community Stream Map', path: '/community-stream-map' },
+              { name: 'Vitality Star Matrix', path: '/vitality-star-matrix' },
+              { name: 'Global Harmony Lantern', path: '/global-harmony-lantern' },
+              { name: 'Resilience Tide Canvas', path: '/resilience-tide-canvas' },
+              { name: 'Eco-Spirit Harmony', path: '/eco-spirit-harmony' },
+              { name: 'Healing Memory Globe', path: '/healing-memory-globe' },
+              { name: 'Planetary Wellness Canvas', path: '/planetary-wellness-canvas' },
+            ].map((feature) => (
+              <Link key={feature.path} href={feature.path}>
+                <div className="bg-white rounded-lg shadow-md p-6 text-center hover:bg-emerald-50 cursor-pointer transition">
+                  <span className="text-lg font-semibold text-emerald-700">{feature.name}</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+
         {/* Animated Background Elements */}
         <div className="fixed inset-0 pointer-events-none -z-10">
           {[...Array(5)].map((_, i) => (
