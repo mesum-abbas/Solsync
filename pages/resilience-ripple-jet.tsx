@@ -1,4 +1,5 @@
 import React from 'react';
+import RippleJetVisualizer from '../components/RippleJetVisualizer';
 
 export default function ResilienceRippleJet() {
   return (
@@ -8,7 +9,7 @@ export default function ResilienceRippleJet() {
         Choreographs water jets in public fountains to reflect recovery, a captivating display of hope. (Arduino, Greengrass)
       </p>
       <div className="rounded-lg bg-white/80 p-6 shadow-lg">
-        <span className="text-2xl">💦</span>
+        <RippleJetVisualizer />
       </div>
     </div>
   );

@@ -3,5 +3,21 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/global-wellness-weave": "pages/global-wellness-weave.js"
+  "/global-healing-ember": "pages/global-healing-ember.js",
+  "/resilience-petal-vortex": "pages/resilience-petal-vortex.js",
+  "/eco-rhythm-cascade": "pages/eco-rhythm-cascade.js",
+  "/harmony-pulse-chime": "pages/harmony-pulse-chime.js",
+  "/community-glow-sphere": "pages/community-glow-sphere.js",
+  "/global-wellness-weave": "pages/global-wellness-weave.js",
+  "/vitality-sky-mosaic": "pages/vitality-sky-mosaic.js",
+  "/api/petals": "pages/api/petals.js",
+  "/resilience-ripple-jet": "pages/resilience-ripple-jet.js",
+  "/api/cascade": "pages/api/cascade.js",
+  "/eco-vitality-prism": "pages/eco-vitality-prism.js",
+  "/api/ripple": "pages/api/ripple.js",
+  "/api/prism": "pages/api/prism.js",
+  "/healing-dance-sphere": "pages/healing-dance-sphere.js",
+  "/community-unity-web": "pages/community-unity-web.js",
+  "/api/dance": "pages/api/dance.js",
+  "/dashboard": "pages/dashboard.js"
 }

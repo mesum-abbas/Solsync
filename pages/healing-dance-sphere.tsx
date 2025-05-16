@@ -1,4 +1,5 @@
 import React from 'react';
+import DanceSphereVisualizer from '../components/DanceSphereVisualizer';
 
 export default function HealingDanceSphere() {
   return (
@@ -8,7 +9,7 @@ export default function HealingDanceSphere() {
         Coordinates global dance rituals tied to patient milestones, uniting communities via AR. (Unity, IoT Core)
       </p>
       <div className="rounded-lg bg-white/80 p-6 shadow-lg">
-        <span className="text-2xl">🕺</span>
+        <DanceSphereVisualizer />
       </div>
     </div>
   );

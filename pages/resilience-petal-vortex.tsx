@@ -1,4 +1,5 @@
 import React from 'react';
+import PetalVortexVisualizer from '../components/PetalVortexVisualizer';
 
 export default function ResiliencePetalVortex() {
   return (
@@ -8,7 +9,7 @@ export default function ResiliencePetalVortex() {
         Renders recovery as a swirling AR petal storm, with community actions adding patterns, uplifting users with its dynamic beauty. (Unity, Amplify)
       </p>
       <div className="rounded-lg bg-white/80 p-6 shadow-lg">
-        <span className="text-2xl">🌸</span>
+        <PetalVortexVisualizer />
       </div>
     </div>
   );

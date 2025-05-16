@@ -1,4 +1,5 @@
 import React from 'react';
+import CascadeVisualizer from '../components/CascadeVisualizer';
 
 export default function EcoRhythmCascade() {
   return (
@@ -8,7 +9,7 @@ export default function EcoRhythmCascade() {
         Syncs patient breathing with environmental rhythms via AR waterfalls, calming and shareable. (Unity, IoT Core)
       </p>
       <div className="rounded-lg bg-white/80 p-6 shadow-lg">
-        <span className="text-2xl">💧</span>
+        <CascadeVisualizer />
       </div>
     </div>
   );
